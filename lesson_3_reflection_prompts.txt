@@ -9,3 +9,15 @@ Describe the differences between forks, clones, and branches. When would you use
   clones, are from github to local or from local to local
   branches, are ways to work on different things at the same time, you push and pull branches
   by the way
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+  you can know who far from the remote you are and what you've added since the last sync
+  and also for fetch and merge.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+  it would be harder like really hard, not using pull request, not syncing
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+  when making something new, benefits it can get reviewed before it becames public,
+  changes in master directly should never happen but if it does, it should be to correct
+  details or typos
